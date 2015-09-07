@@ -1,3 +1,4 @@
+util.print: Use console.log instead
 /*
  * Tweak the overal size to better match RTD.
  */
@@ -120,4 +121,100 @@ div.admonition code {
   color: #404040;
   border: 1px solid rgba(0, 0, 0, 0.2);
   background: rgba(255, 255, 255, 0.7);
+}
+a {
+  color: #51bcb6;
+}
+a:hover,
+a:visited {
+  color: #51bcb6;
+  opacity: 0.8;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #51bcb6;
+}
+hr {
+  border-top: solid 1px #eceff4;
+}
+.wy-nav-side {
+  background: #eceff4;
+}
+.wy-side-nav-search {
+  background: #51bcb6;
+}
+.wy-side-nav-search img {
+  background: none;
+  width: 120px;
+  height: 48px;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+.wy-side-nav-search a:hover {
+  background: none;
+}
+.wy-side-nav-search input[type=text] {
+  border-color: #51bcb6;
+}
+.wy-menu-vertical a {
+  font-size: 16px;
+}
+.wy-menu-vertical li.toctree-l1 a {
+  color: #353535 !important;
+  padding: 0.6em 1.6em;
+  border-left: solid 5px transparent;
+}
+.wy-menu-vertical li ul.subnav li a {
+  color: #abb6c3 !important;
+  padding: 0.6em 2.6em;
+  border-left: solid 5px transparent;
+}
+.wy-menu-vertical span {
+  line-height: 18px;
+  padding: 0.6em 1.6em;
+  font-size: 16px;
+  color: #353535;
+}
+.wy-menu-vertical li.current a {
+  border: 0;
+  background: #d9dfe9;
+  border-left: solid 5px #f1867e !important;
+}
+.wy-menu-vertical li.current a:hover {
+  background: #d9dfe9;
+  opacity: 1.0;
+}
+.wy-menu-vertical a:hover {
+  background: none;
+}
+.wy-breadcrumbs .bread-slash {
+  color: #ccc;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#mkdocs-search-results {
+  min-height: 300px;
+}
+#mkdocs-search-results p {
+  margin-top: 50px;
+  color: #999;
+}
+footer p {
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+}
+footer p a {
+  color: #999;
+  margin-right: 15px;
+}
+footer p a:hover {
+  color: #999;
+  opacity: 0.8;
+}
+footer p a:visited {
+  color: #999;
 }

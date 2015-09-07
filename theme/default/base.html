@@ -64,7 +64,7 @@
     {# SIDE NAV, TOGGLES ON MOBILE #}
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="{{ homepage_url }}" class="icon icon-home"> {{ site_name }}</a>
+        <a href="{{ homepage_url }}"><img src="{{ base_url }}/img/lclogo.png"/></a>
         {% include "searchbox.html" %}
       </div>
 
@@ -91,6 +91,13 @@
         <div class="rst-content">
           {% include "breadcrumbs.html" %}
           <div role="main">
+
+            {% if current_page and current_page.is_homepage %}
+            <h1>首页</h1>
+            {% else %}
+            <h1>{{ page_title }}</h1>
+            {% endif %}
+
             <div class="section">
               {% block content %}
                 {{ content }}
@@ -107,7 +114,7 @@
 
   </div>
 
-{% include "versions.html" %}
+<!--{% include "versions.html" %}-->
 
 </body>
 </html>
