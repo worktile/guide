@@ -27,3 +27,5 @@ build/Release
 .idea
 node_modules
 site
+bower_components
+theme
