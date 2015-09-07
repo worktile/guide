@@ -17,7 +17,7 @@ pages:
 - [about.md, 关于我们]
 - [element.md, 示例]
 #theme: readthedocs
-theme_dir: 'theme/readthedocs'
+theme_dir: 'theme/default'
 #theme_dir: 'theme/mkdocs'
 docs_dir: 'docs'
 site_dir: 'site'
