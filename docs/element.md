@@ -1,6 +1,6 @@
 ## Link
 
-Please see the [project license](license.md) for further details.
+Please see the [project api](api.md) for further details.
 
 ##Images
 

@@ -39,6 +39,7 @@ gulp.task('js', function () {
         .pipe(uglify())
         .pipe(gulp.dest('./theme/default/js'));
 });
+
 gulp.task('html', function () {
     return gulp.src(['./static/*.html'])
         .pipe(gulp.dest('./theme/default/'));
@@ -52,9 +53,27 @@ gulp.task('fonts', function () {
         .pipe(gulp.dest('./theme/default/fonts'));
 });
 
-gulp.task('css', function () {
-    return gulp.src(['./static/css/*.css'])
-        .pipe(gulp.dest('./theme/default/css'));
+
+// 监听sass
+gulp.watch('./static/css/*.*', function(){
+    gulp.run('style');
+});
+// 监听js
+gulp.watch('./static/js/*.js', function(){
+    gulp.run('js');
+});
+// 监听img
+gulp.watch('./static/img/*.*', function(){
+    gulp.run('img');
+});
+
+// 监听fonts
+gulp.watch('./static/fonts/*.*', function(){
+    gulp.run('fonts');
+});
+// 监听fonts
+gulp.watch('./static/*.html', function(){
+    gulp.run('html');
 });
 
 
