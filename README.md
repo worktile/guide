@@ -21,6 +21,11 @@
 
    `pip install mkdocs`
 
+   5.`npm install`
+
+   6.`bower install`
+
+
 ## 启动环境
 
 `mkdocs serve`
@@ -28,7 +33,9 @@
 
 ## 生成html文件
 
-`mkdocs build`
+   1.`gulp`
+
+   2.`mkdocs build`
 
 ## 官方api
 
