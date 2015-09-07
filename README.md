@@ -1,5 +1,5 @@
 # guide
-## python环境搭建
+## 环境搭建
 
    1.安装brew[如果没有brew命令]
 
@@ -16,6 +16,10 @@
    `sudo python get-pip.py`
 
    参考:[python环境搭建](http://blog.csdn.net/fancylovejava/article/details/39140373)
+
+   4.安装mkdocs
+
+   `pip install mkdocs`
 
 ## 启动环境
 
