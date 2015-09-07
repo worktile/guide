@@ -93,7 +93,6 @@
                 {{ content }}
               {% endblock %}
             </div>
-            <div class="ds-thread" data-thread-key="{{ page_title }}" data-title="{{ page_title }}" data-url="{{ current_url }}"></div>
           </div>
 	  {%- block footer %}
           {% include "footer.html" %}
@@ -115,18 +114,3 @@ MkDocs version : {{ mkdocs_version }}
 Build Date UTC : {{ build_date_utc }}
 -->
 {% endif %}
-<script type="text/javascript">
-  $('.ds-thread').attr('data-url', location.href).attr('data-thread-key', location.href)
-
-  var duoshuoQuery = {
-    short_name: "sendcloud"
-  };
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';
-    ds.async = true;
-    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-</script>

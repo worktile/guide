@@ -6,7 +6,7 @@ Please see the [project license](license.md) for further details.
 
 Cupcake indexer is a snazzy new project for indexing small cakes.
 
-![Screenshot](img/icon.png)
+![Screenshot](img/logo.png)
 
 *Above: Cupcake indexer in progress*
 
