@@ -12,7 +12,7 @@ pages:
 - [index.md, '首页']
 - [using.md, 使用指南]
 
-- [using/account.md, '成员使用指南', '帐户与设置']
+- [using/account.md, '成员使用指南', '帐户设置']
 - [using/message.md, '成员使用指南', '消息']
 - [using/channel.md, '成员使用指南', '频道与群组']
 - [using/notification.md, '成员使用指南', '通知']
@@ -22,6 +22,7 @@ pages:
 - [admin.md, 管理员手册]
 
 - [admin/setting.md, '纷云管理员手册', '团队设置']
+- [admin/invite.md, '纷云管理员手册', '添加团队成员']
 - [admin/members.md, '纷云管理员手册', '成员管理']
 - [admin/permission.md, '纷云管理员手册', '权限设置']
 - [admin/customize.md, '纷云管理员手册', '团队自定义']

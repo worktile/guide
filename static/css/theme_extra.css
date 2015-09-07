@@ -140,6 +140,17 @@ h6 {
 hr {
   border-top: solid 1px #eceff4;
 }
+.wy-nav-top {
+  background: #51bcb6;
+}
+.wy-nav-top a {
+  color: #fff;
+  font-size: 18px;
+}
+.wy-nav-top i {
+  font-size: 20px;
+  margin-top: 15px;
+}
 .wy-nav-side {
   background: #eceff4;
 }
@@ -159,6 +170,9 @@ hr {
 }
 .wy-side-nav-search input[type=text] {
   border-color: #51bcb6;
+}
+.wy-menu-vertical ul {
+  margin-bottom: 0;
 }
 .wy-menu-vertical a {
   font-size: 16px;
@@ -202,6 +216,16 @@ hr {
 #mkdocs-search-results p {
   margin-top: 50px;
   color: #999;
+}
+code {
+  border: solid 1px #eceff4;
+  font-size: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #f6695b;
+  background: #fbfbfb;
+  padding: 2px 5px;
+  border-radius: 3px;
 }
 footer p {
   font-size: 14px;
