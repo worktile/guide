@@ -11,3 +11,7 @@
 ## 生成html文件
 
 `mkdocs build`
+
+## 官方api
+
+[api](http://markdown-docs-zh.readthedocs.org/zh_CN/latest/)
