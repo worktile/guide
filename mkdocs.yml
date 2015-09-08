@@ -3,8 +3,8 @@ site_url: https://help.lesschat.com
 repo_url: https://github.com/lesschat/guide
 repo_name: GitHub
 site_favicon: favicon.ico
-site_description: machuanjia
-site_author: macj
+site_description: 纷云帮助中心
+site_author: yctech
 copyright:  'Copyright&copy;2015 纷云'
 #google_analytics: ['UA-36723568-3', 'mkdocs.org']
 include_next_prev: false
