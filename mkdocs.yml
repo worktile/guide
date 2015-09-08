@@ -9,7 +9,7 @@ copyright:  'Copyright&copy;2015 纷云'
 #google_analytics: ['UA-36723568-3', 'mkdocs.org']
 include_next_prev: false
 pages:
-- [index.md, '首页']
+- [index.md, '快速开始']
 - [using.md, 使用指南]
 
 - [using/account.md, '成员使用指南', '帐户设置']
