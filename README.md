@@ -28,12 +28,14 @@
 
 ## 启动环境
 
-`mkdocs serve`
+   1.`gulp`
+
+   2.`mkdocs serve`
 
 
 ## 生成html文件
 
-   1.`gulp`
+   1.`gulp` 或 `gulp build`
 
    2.`mkdocs build`
 
