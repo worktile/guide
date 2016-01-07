@@ -1,31 +1,33 @@
-site_name: 纷云帮助中心
-site_url: https://help.lesschat.com
+site_name: Worktile企业版帮助中心
+site_url: https://pro.worktile.com/help
 repo_url: https://github.com/lesschat/guide
 repo_name: GitHub
 site_favicon: favicon.ico
-site_description: 纷云帮助中心
+site_description: Worktile企业版帮助中心
 site_author: yctech
-copyright:  'Copyright&copy;2015 纷云'
+copyright:  'Copyright&copy;2015 Worktile 企业版'
 #google_analytics: ['UA-36723568-3', 'mkdocs.org']
 include_next_prev: false
 pages:
 - [index.md, '快速开始']
 - [using.md, 使用指南]
 
-- [using/account.md, '成员使用指南', '帐户设置']
-- [using/message.md, '成员使用指南', '消息']
-- [using/channel.md, '成员使用指南', '频道与群组']
-- [using/notification.md, '成员使用指南', '通知']
-- [using/integration.md, '成员使用指南', '第三方服务']
-- [using/client.md, '成员使用指南', '客户端指南']
+#- [using/message.md, '成员使用指南', '聊天']
+#- [using/task.md, '成员使用指南', '任务']
+#- [using/calendar.md, '成员使用指南', '日程']
+#- [using/drive.md, '成员使用指南', '网盘']
+#- [using/report.md, '成员使用指南', '简报']
+#- [using/phone.md, '成员使用指南', '电话']
+#- [using/contacts.md, '成员使用指南', '通讯录']
 
 - [admin.md, 管理员手册]
 
-- [admin/setting.md, '纷云管理员手册', '团队设置']
-- [admin/invite.md, '纷云管理员手册', '添加团队成员']
-- [admin/members.md, '纷云管理员手册', '成员管理']
-- [admin/permission.md, '纷云管理员手册', '权限设置']
-- [admin/customize.md, '纷云管理员手册', '团队自定义']
+#- [admin/setting.md, '纷云管理员手册', '团队设置']
+#- [admin/invite.md, '纷云管理员手册', '添加团队成员']
+#- [admin/members.md, '纷云管理员手册', '成员管理']
+#- [admin/permission.md, '纷云管理员手册', '权限设置']
+#- [admin/customize.md, '纷云管理员手册', '团队自定义']
+
 - [support.md, '联系客服']
 
 #theme: readthedocs

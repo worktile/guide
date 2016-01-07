@@ -1,3 +1,4 @@
+util.print: Use console.log instead
 /*
  * This file is copied from the upstream ReadTheDocs Sphinx
  * theme. To aid upgradability this file should *not* be edited.
@@ -3894,7 +3895,7 @@ div[class^='highlight'] pre {
   color: #333333;
 }
 .na {
-  color: teal;
+  color: #008080;
 }
 .nb {
   color: #0086b3;
@@ -3904,10 +3905,10 @@ div[class^='highlight'] pre {
   font-weight: bold;
 }
 .no {
-  color: teal;
+  color: #008080;
 }
 .ni {
-  color: purple;
+  color: #800080;
 }
 .ne {
   color: #900;
@@ -3921,10 +3922,10 @@ div[class^='highlight'] pre {
   color: #555555;
 }
 .nt {
-  color: navy;
+  color: #000080;
 }
 .nv {
-  color: teal;
+  color: #008080;
 }
 .ow {
   font-weight: bold;
@@ -3981,13 +3982,13 @@ div[class^='highlight'] pre {
   color: #999999;
 }
 .vc {
-  color: teal;
+  color: #008080;
 }
 .vg {
-  color: teal;
+  color: #008080;
 }
 .vi {
-  color: teal;
+  color: #008080;
 }
 .il {
   color: #009999;
@@ -4771,7 +4772,7 @@ a .rst-content tt {
   border: none;
   border-left: solid 3px #ccc;
   background: #f0f0f0;
-  color: gray;
+  color: #808080;
 }
 .rst-content dl:not(.docutils) dl dt .headerlink {
   color: #404040;
@@ -4949,6 +4950,23 @@ h6 {
   color: #2980b9;
   font-weight: 300;
 }
+::-webkit-scrollbar {
+  width: 7px;
+  height: 9px;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #eceff4;
+}
+::-webkit-scrollbar-thumb {
+  background: #d9dfe8;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:vertical:hover {
+  background: #bcc6d8;
+}
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background: #bcc6d8;
+}
 /*
  * Sphinx doesn't have support for section dividers like we do in
  * MkDocs, this styles the section titles in the nav
@@ -5060,11 +5078,11 @@ div.admonition code {
   background: rgba(255, 255, 255, 0.7);
 }
 a {
-  color: #51bcb6;
+  color: #69d0d1;
 }
 a:hover,
 a:visited {
-  color: #51bcb6;
+  color: #38b5b6;
   opacity: 0.8;
 }
 h2,
@@ -5072,13 +5090,13 @@ h3,
 h4,
 h5,
 h6 {
-  color: #51bcb6;
+  color: #69d0d1;
 }
 hr {
   border-top: solid 1px #eceff4;
 }
 .wy-nav-top {
-  background: #51bcb6;
+  background: #69d0d1;
 }
 .wy-nav-top a {
   color: #fff;
@@ -5092,21 +5110,21 @@ hr {
   background: #eceff4;
 }
 .wy-side-nav-search {
-  background: #51bcb6;
+  background: #4bbcb7;
 }
 .wy-side-nav-search img {
   background: none;
-  width: 120px;
-  height: 48px;
+  width: 189px;
+  height: 30px;
   border-radius: 0;
   padding: 0;
-  margin: 0;
+  margin: 12px 0;
 }
 .wy-side-nav-search a:hover {
   background: none;
 }
 .wy-side-nav-search input[type=text] {
-  border-color: #51bcb6;
+  border-color: #4bbcb7;
 }
 .wy-menu-vertical ul {
   margin-bottom: 0;
@@ -5133,7 +5151,8 @@ hr {
 .wy-menu-vertical li.current a {
   border: 0;
   background: #d9dfe9;
-  border-left: solid 5px #f1867e !important;
+  border-left: solid 5px #69d0d1 !important;
+  color: #6f8092;
 }
 .wy-menu-vertical li.current a:hover {
   background: #d9dfe9;
