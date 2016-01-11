@@ -5,12 +5,18 @@ repo_name: GitHub
 site_favicon: favicon.ico
 site_description: Worktile企业版帮助中心
 site_author: yctech
-copyright:  'Copyright&copy;2015 Worktile 企业版'
+copyright:  'Copyright&copy;2016 Worktile 企业版'
 #google_analytics: ['UA-36723568-3', 'mkdocs.org']
 include_next_prev: false
 pages:
 - [index.md, '快速开始']
-- [using.md, 使用指南]
+- [message.md, 聊天]
+- [task.md, 任务]
+- [calendar.md, 日历]
+- [drive.md, 网盘]
+- [drive.md, 简报]
+- [phone.md, 电话]
+- [contacts.md, 通讯录]
 
 #- [using/message.md, '成员使用指南', '聊天']
 #- [using/task.md, '成员使用指南', '任务']
