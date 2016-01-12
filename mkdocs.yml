@@ -10,31 +10,26 @@ copyright:  'Copyright&copy;2016 Worktile 企业版'
 include_next_prev: false
 pages:
 - [index.md, '快速开始']
-- [message.md, 聊天]
-- [task.md, 任务]
-- [calendar.md, 日历]
-- [drive.md, 网盘]
-- [drive.md, 简报]
-- [phone.md, 电话]
-- [contacts.md, 通讯录]
+- [message/index.md, '聊天']
+- [task/index.md, '任务']
+- [calendar/index.md, '日历']
+- [drive/index.md, '网盘']
+- [report/index.md, '简报']
+- [phone/index.md, 电话]
+- [contacts/index.md, 通讯录]
 
-#- [using/message.md, '成员使用指南', '聊天']
-#- [using/task.md, '成员使用指南', '任务']
-#- [using/calendar.md, '成员使用指南', '日程']
-#- [using/drive.md, '成员使用指南', '网盘']
-#- [using/report.md, '成员使用指南', '简报']
-#- [using/phone.md, '成员使用指南', '电话']
-#- [using/contacts.md, '成员使用指南', '通讯录']
+- [admin/index.md, '管理员手册']
+- [admin/dashboard.md, '管理员手册 ', '控制台']
+- [admin/members.md, '管理员手册 ', '成员管理']
+- [admin/apps.md, '管理员手册 ', '应用管理']
+- [admin/services.md, '管理员手册 ', '服务管理']
+- [admin/setting.md, '管理员手册 ', '企业设置']
+- [admin/billing.md, '管理员手册 ', '账单管理']
+- [admin/security.md, '管理员手册 ', '安全管理']
+- [admin/stat.md, '管理员手册 ', '数据统计']
 
-- [admin.md, 管理员手册]
 
-#- [admin/setting.md, '纷云管理员手册', '团队设置']
-#- [admin/invite.md, '纷云管理员手册', '添加团队成员']
-#- [admin/members.md, '纷云管理员手册', '成员管理']
-#- [admin/permission.md, '纷云管理员手册', '权限设置']
-#- [admin/customize.md, '纷云管理员手册', '团队自定义']
-
-- [support.md, '联系客服']
+#- [support.md, '联系客服']
 
 #theme: readthedocs
 theme_dir: 'theme/default'
